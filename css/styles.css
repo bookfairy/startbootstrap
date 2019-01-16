@@ -367,3 +367,49 @@ header {
 }
 
 /* contact us */
+/* FOOTER 영역 */
+
+#footer {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.footer_image {
+    width: 50px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer_sns {
+    text-align: center;
+}
+
+.footer_link {
+    color: #fed136;
+    text-decoration: none;
+    font-size: 90%;
+    line-height: 40px;
+    font-family: Montserrat;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-shadow: none;
+    text-align: center;
+}
+
+.footer_link:hover {
+    color: #fed136;
+}
