@@ -21,6 +21,12 @@
     src: url('../font/Montserrat-Bold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    src: url('../font/RobotoSlab-Regular.ttf') format('truetype');
+}
+
 
 /* main theme color는 #fed136 입니다 */
 
@@ -83,15 +89,26 @@ header {
 #portfolio {
     text-align: center;
 }
+
+
+/* our amazing team */
+
+.team {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
 #team_title1 {
-font-weight: 700;
-    font-family: Montserrat;
+    font-weight: 700;
+    font-family: 'Montserrat';
     font-size: 40px;
     margin-bottom: 15px;
   }
 
 #team_title2 {
-    font-family: 'Droid Serif'
+    font-family: 'Droid Serif';
+
     font-size: 16px;
     margin-bottom: 75px;
   }
@@ -101,18 +118,27 @@ font-weight: 700;
   }
 
 .name {
-    font-family: Montserrat;
-    font-size: 24px;
     margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Montserrat
+
+
     margin-bottom: 0px;
 }
 
 .job {
-    Montserrat;
     font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto Slab';
+    color: #6c757d;
+
 }
 
+.people {
 
+}
 
 #person_img1 {
     width: 225px;
@@ -121,6 +147,7 @@ font-weight: 700;
 #person_img2 {
     width: 225px;
     border-radius: 110px;
+
 }
 #person_img3 {
     width: 225px;
@@ -131,6 +158,7 @@ font-weight: 700;
 .person1 {
     float: left;
     width: 33%;
+
 }
 
 
@@ -142,6 +170,7 @@ font-weight: 700;
 .person3 {
     float: left;
     width: 33%;
+    padding-bottom: 50px;
 }
 
 .sentence {
@@ -152,6 +181,8 @@ font-weight: 700;
     max-width: 690px;
     font-family: 'Roboto Slab';
     color : rgb(108, 117, 125);
+
+    padding-bottom: 150px;
 }
 
 =======
