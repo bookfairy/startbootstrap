@@ -29,6 +29,14 @@
 
 /* 공통 영역 */
 
+section {
+
+}
+
+.gray-page {
+    background-color: #f8f9fa;
+}
+
 .page-title {
     margin-bottom: 15px;
     font-size: 40px;
