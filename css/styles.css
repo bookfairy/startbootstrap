@@ -99,23 +99,20 @@ header {
 }
 
 
-#team_title1 {
+.team_title1 {
     font-weight: 700;
     font-family: 'Montserrat';
     font-size: 40px;
     margin-bottom: 15px;
   }
 
-#team_title2 {
+.team_title2 {
     font-family: 'Droid Serif';
 
     font-size: 16px;
     margin-bottom: 75px;
   }
 
-#helper {
-
-  }
 
 .name {
     margin-top: 25px;
@@ -140,16 +137,7 @@ header {
 
 }
 
-#person_img1 {
-    width: 225px;
-    border-radius: 110px;
-}
-#person_img2 {
-    width: 225px;
-    border-radius: 110px;
-
-}
-#person_img3 {
+.person_img {
     width: 225px;
     border-radius: 110px;
 }
@@ -174,7 +162,7 @@ header {
 }
 
 .sentence {
-<<<<<<< HEAD
+
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -185,7 +173,23 @@ header {
     padding-bottom: 150px;
 }
 
-=======
-    width: 100%;
+/* our amazing team */
+
+/* contact us */
+.contact_us {
+    text-align: center;
+    position: relative;
+    height: 500px;
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+
+    padding: 150px 0px;
 }
->>>>>>> e8c8d26e5c69124168215835cdbfad396bf32bca
+
+.contact_title {
+    color: white;
+}
+/* contact us */
