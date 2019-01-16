@@ -166,34 +166,23 @@ header {
     padding-top: 150px;
     padding-bottom: 150px;
 }
-
-
 .team_title1 {
     font-weight: 700;
     font-family: 'Montserrat';
 }
-
 /* 이경원 */
 
-#team_title1 {
+.team_title1 {
     font-weight: 700;
     font-family: Montserrat;
     font-size: 40px;
     margin-bottom: 15px;
 }
-
 .team_title2 {
     font-family: 'Droid Serif';
     font-size: 16px;
     margin-bottom: 75px;
 }
-
-<<<<<<< HEAD
-=======
-#helper {
-
-}
->>>>>>> 9ffd7844f1fde8d0c470280247b1bb58886f9258
 
 .name {
     margin-top: 25px;
@@ -203,72 +192,40 @@ header {
     font-family: Montserrat;
     margin-bottom: 0px;
 }
-
 .job {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Roboto Slab';
     color: #6c757d;
-
 }
-
-<<<<<<< HEAD
-.people {
-
-}
-
 .person_img {
-=======
-#person_img1 {
     width: 225px;
     border-radius: 110px;
 }
-
-#person_img2 {
-    width: 225px;
-    border-radius: 110px;
-
-}
-
-#person_img3 {
->>>>>>> 9ffd7844f1fde8d0c470280247b1bb58886f9258
-    width: 225px;
-    border-radius: 110px;
-}
-
 
 .person1 {
     float: left;
     width: 33%;
-
 }
-
 .person2 {
     float: left;
     width: 33%;
 }
-
 .person3 {
     float: left;
     width: 33%;
     padding-bottom: 50px;
 }
-
 .sentence {
-<<<<<<< HEAD
-
-=======
->>>>>>> 9ffd7844f1fde8d0c470280247b1bb58886f9258
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 690px;
     font-family: 'Roboto Slab';
     color: rgb(108, 117, 125);
-    padding-bottom: 150px;
 }
-<<<<<<< HEAD
+
 
 /* our amazing team */
 
@@ -276,7 +233,7 @@ header {
 .contact_us {
     text-align: center;
     position: relative;
-    height: 500px;
+    height: 800px;
     background-image: url("../images/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -288,7 +245,68 @@ header {
 
 .contact_title {
     color: white;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+
 }
+
+.contact_slogan {;
+    color: rgb(108, 117, 125);
+    font-family: 'Droid Serif';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+
+.login-form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.text-field {
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  color: #dacebc;
+  font-family: Montserrat;
+
+  font-weight: bold;
+  width: 540px;
+  heigth: 248px;
+
+
+}
+
+.submit-btn {
+
+  background-color: rgb(254, 209, 54);
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 20px 40px;
+  text-align: center;
+  font-family: Montserrat;
+
+  width: 230px;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.links a {
+  font-size: 12px;
+  color: #9b9b9b
+}
+
 /* contact us */
-=======
->>>>>>> 9ffd7844f1fde8d0c470280247b1bb58886f9258
+
