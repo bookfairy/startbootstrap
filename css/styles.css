@@ -1,8 +1,3 @@
-.team {
-    text-align: center;
-}
-
-
 @font-face {
     font-family: 'Droid Serif';
     font-weight: 400;
@@ -188,15 +183,81 @@ header {
     padding: 0;
 }
 
+/* about 영역*/
+
+.remove-padding {
+    padding: 0;
+}
+
+.vertical-line {
+    height: 200px;
+    border-right: 2px solid #e9ecef;
+}
+
+#about {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.graph-title {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.graph-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    border: 7px solid #e9ecef;
+    display: inline-block;
+    background-color: #fed136;
+    line-height: 155px;
+}
+
+.inner-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.graph-desctiption {
+    font-family: 'Droid Serif';
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.75;
+}
+
+.graph-left {
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 25px;
+}
+
+.graph-right {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 100px;
+}
+
 /* our amazing team */
 
+
+/* 이경원 */
+
 .team {
+    text-align: center;
     padding-top: 150px;
     padding-bottom: 150px;
 }
 
 
-#team_title1 {
+.team_title1 {
     font-weight: 700;
     font-family: 'Montserrat';
 }
@@ -210,7 +271,7 @@ header {
     margin-bottom: 15px;
 }
 
-#team_title2 {
+.team_title2 {
     font-family: 'Droid Serif';
     font-size: 16px;
     margin-bottom: 75px;
@@ -235,6 +296,10 @@ header {
     font-weight: 400;
     font-family: 'Roboto Slab';
     color: #6c757d;
+
+}
+
+.people {
 
 }
 
@@ -279,10 +344,30 @@ header {
     max-width: 690px;
     font-family: 'Roboto Slab';
     color: rgb(108, 117, 125);
-    padding-bottom: 150px;
 }
 
-/* FOOTER 영역 */]
+/* our amazing team */
+
+/* contact us */
+.contact_us {
+    text-align: center;
+    position: relative;
+    height: 500px;
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+
+    padding: 150px 0px;
+}
+
+.contact_title {
+    color: white;
+}
+
+/* contact us */
+/* FOOTER 영역 */
 
 /* FOOTER-LOGO */
 
