@@ -1,2 +1,29 @@
 @charset "UTF-8";
 
+/* main theme color는 #fed136 입니다 */
+
+::selection {
+    background-color: #fed136;
+}
+
+
+/* 공통 영역 */
+
+.page-title {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.page-desctiption {
+    margin-bottom: 75px;
+    font-size: 16px;
+}
+
+
+/* PORTFOLIO 영역 */
+
+#portfolio {
+    text-align: center;
+}
+
