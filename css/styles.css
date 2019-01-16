@@ -96,12 +96,32 @@ header {
     border-radius: 4px;
 }
 
-.container {
+.box {
     display: inline-block;
     line-height: 100%;
     vertical-align: middle;
 }
 
+/* SERVICE 영역 */
+
+#title_services {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Montserrat;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#subheading_services {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    color: #6c757d;
+    font-family: 'Droid Serif';
+}
 
 /* PORTFOLIO 영역 */
 
