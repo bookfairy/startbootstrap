@@ -2,6 +2,87 @@
     text-align: center;
 }
 
+
+@font-face {
+    font-family: 'Droid Serif';
+    font-weight: 400;
+    src: url('../font/DroidSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    src: url('../font/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    src: url('../font/Montserrat-Bold.ttf') format('truetype');
+}
+
+
+/* main theme color는 #fed136 입니다 */
+
+::selection {
+    background-color: #fed136;
+}
+
+
+/* 공통 영역 */
+
+section {
+
+}
+
+.gray-page {
+    background-color: #f8f9fa;
+}
+
+.page-title {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+.page-desctiption {
+    margin-bottom: 75px;
+    font-size: 16px;
+    color: #6c757d;
+    font-family: 'Droid Serif';
+    font-style: italic;
+}
+
+
+/* INTRO 영역 */
+
+header {
+    text-align: center;
+    position: relative;
+    height: 500px;
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+#intro_1 {
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Dorif Serif';
+}
+
+
+/* PORTFOLIO 영역 */
+
+#portfolio {
+    text-align: center;
+}
 #team_title1 {
 font-weight: 700;
     font-family: Montserrat;
@@ -15,7 +96,7 @@ font-weight: 700;
     margin-bottom: 75px;
   }
 
-# helper {
+#helper {
 
   }
 
@@ -64,6 +145,7 @@ font-weight: 700;
 }
 
 .sentence {
+<<<<<<< HEAD
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -72,3 +154,7 @@ font-weight: 700;
     color : rgb(108, 117, 125);
 }
 
+=======
+    width: 100%;
+}
+>>>>>>> e8c8d26e5c69124168215835cdbfad396bf32bca
