@@ -185,6 +185,15 @@ header {
 
 /* about 영역*/
 
+.remove-padding {
+    padding: 0;
+}
+
+.vertical-line {
+    height: 200px;
+    border-right: 2px solid #e9ecef;
+}
+
 #about {
     text-align: center;
     padding: 150px 0;
@@ -194,20 +203,46 @@ header {
     font-weight: bold;
     font-family: 'Montserrat';
     font-size: 24px;
+    line-height: 1.5;
+}
+
+.graph-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    border: 7px solid #e9ecef;
+    display: inline-block;
+    background-color: #fed136;
+    line-height: 155px;
+}
+
+.inner-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .graph-desctiption {
     font-family: 'Droid Serif';
     font-size: 16px;
     color: #6c757d;
+    line-height: 1.75;
 }
 
 .graph-left {
     text-align: right;
+    padding-left: 100px;
+    padding-right: 25px;
 }
 
 .graph-right {
     text-align: left;
+    padding-left: 25px;
+    padding-right: 100px;
 }
 
 /* our amazing team */
@@ -330,4 +365,5 @@ header {
 .contact_title {
     color: white;
 }
+
 /* contact us */
