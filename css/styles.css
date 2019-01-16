@@ -159,13 +159,13 @@ header {
     background-position: center center;
 }
 
-header > .header-inner {
+#intro {
     display: inline-block;
     line-height: 100%;
     vertical-align: middle;
 }
 
-header > .header-inner > .header-subtitle {
+#intro > .header-subtitle {
     margin-bottom: 25px;
     line-height: 40px;
     color: white;
@@ -174,7 +174,7 @@ header > .header-inner > .header-subtitle {
     font-family: 'Droid Serif', serif;
 }
 
-header > .header-inner > .header-title {
+#intro > .header-title {
     line-height: 75px;
     margin-bottom: 50px;
     color: white;
@@ -182,7 +182,7 @@ header > .header-inner > .header-title {
     font-weight: 700;
 }
 
-header > .header-inner > .header-button {
+#intro > .header-button {
     padding: 20px 40px;
     text-decoration: none;
     color: white;
