@@ -211,13 +211,10 @@ header {
     margin-bottom: 75px;
 }
 
-<<<<<<< HEAD
-=======
 #helper {
 
 }
 
->>>>>>> a5aabffe51d20ac93d184f41256b6b81f09f8746
 .name {
     margin-top: 25px;
     margin-bottom: 0px;
@@ -232,10 +229,8 @@ header {
     font-weight: 400;
     font-family: 'Roboto Slab';
     color: #6c757d;
-<<<<<<< HEAD
 }
 .person_img {
-=======
 
 }
 
@@ -244,13 +239,10 @@ header {
 }
 
 #person_img1 {
->>>>>>> a5aabffe51d20ac93d184f41256b6b81f09f8746
     width: 225px;
     border-radius: 110px;
 }
 
-<<<<<<< HEAD
-=======
 #person_img2 {
     width: 225px;
     border-radius: 110px;
@@ -262,8 +254,6 @@ header {
     border-radius: 110px;
 }
 
-
->>>>>>> a5aabffe51d20ac93d184f41256b6b81f09f8746
 .person1 {
     float: left;
     width: 33%;
@@ -285,10 +275,6 @@ header {
     font-family: 'Roboto Slab';
     color: rgb(108, 117, 125);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> a5aabffe51d20ac93d184f41256b6b81f09f8746
 
 /* our amazing team */
 
@@ -310,7 +296,7 @@ header {
     color: white;
     font-family: Montserrat;
     font-size: 40px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-bottom: 15px;
 
 }
@@ -372,7 +358,3 @@ header {
 }
 
 /* contact us */
-<<<<<<< HEAD
-
-=======
->>>>>>> a5aabffe51d20ac93d184f41256b6b81f09f8746
