@@ -105,8 +105,7 @@ header {
 /* SERVICE 영역 */
 
 #service {
-    padding-top: 150px;
-    padding-top: 150px;
+    padding: 150px 0;
 }
 
 #title_services {
@@ -303,20 +302,14 @@ header {
     border-radius: 110px;
 }
 
+<<<<<<< HEAD
 .person1 {
+=======
+.person {
+>>>>>>> bea6b350735acfde5b46e221146af2f153ee43f5
     float: left;
     width: 33%;
-}
-
-.person2 {
-    float: left;
-    width: 33%;
-}
-
-.person3 {
-    float: left;
-    width: 33%;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .sentence {
