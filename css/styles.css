@@ -368,12 +368,29 @@ header {
     font-family: Montserrat;
 
     font-weight: bold;
-    width: 540px;
+
     heigth: 248px;
-
-
 }
 
+.form1 {
+    float: left;
+}
+
+.form1 input{
+    min-width: 540px;
+    height: 65px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form2 {
+    float: right;
+}
+.form2 input {
+    max-width: 540px;
+    padding: 20px;
+    height: 238px;
+}
 .submit-btn {
 
     background-color: rgb(254, 209, 54);
