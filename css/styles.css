@@ -16,6 +16,12 @@
     src: url('../font/Montserrat-Bold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    src: url('../font/RobotoSlab-Regular.ttf') format('truetype');
+}
+
 
 /* main theme color는 #fed136 입니다 */
 
@@ -97,6 +103,11 @@ header {
 
 /* SERVICE 영역 */
 
+#service {
+    padding-top: 150px;
+    padding-top: 150px;
+}
+
 #title_services {
     text-align: center;
     font-size: 40px;
@@ -114,6 +125,29 @@ header {
     margin-bottom: 75px;
     color: #6c757d;
     font-family: 'Droid Serif';
+}
+
+.service_image {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service_subtitle {
+    text-align: center;
+    margin: 15px 0;
+    font-weight: 700;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+
+.service_paragraph {
+    color: #6c757d;
+    line-height: 1.75;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 /* PORTFOLIO 영역 */
@@ -149,11 +183,15 @@ header {
     padding: 0;
 }
 
+/* our amazing team */
+
 
 /* 이경원 */
 
 .team {
     text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 #team_title1 {
@@ -174,17 +212,22 @@ header {
 }
 
 .name {
-    font-family: Montserrat;
-    font-size: 24px;
     margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Montserrat;
     margin-bottom: 0px;
 }
 
 .job {
     font-family: Montserrat;
     font-size: 16px;
-}
+    font-weight: 400;
+    font-family: 'Roboto Slab';
+    color: #6c757d;
 
+}
 
 #person_img1 {
     width: 225px;
@@ -194,6 +237,7 @@ header {
 #person_img2 {
     width: 225px;
     border-radius: 110px;
+
 }
 
 #person_img3 {
@@ -205,8 +249,8 @@ header {
 .person1 {
     float: left;
     width: 33%;
-}
 
+}
 
 .person2 {
     float: left;
@@ -216,6 +260,7 @@ header {
 .person3 {
     float: left;
     width: 33%;
+    padding-bottom: 50px;
 }
 
 .sentence {
@@ -225,5 +270,5 @@ header {
     max-width: 690px;
     font-family: 'Roboto Slab';
     color: rgb(108, 117, 125);
-    width: 100%;
+    padding-bottom: 150px;
 }
