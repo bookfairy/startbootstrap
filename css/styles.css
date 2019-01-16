@@ -350,49 +350,44 @@ header {
     margin-bottom: 75px;
 }
 
-.login-form {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
 
-}
-
-.text-field {
+.text-field_left {
     font-size: 14px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    color: #dacebc;
+    font-family: Montserrat;
+    font-weight: bold;
+    width: 90%;
+    max-width: 540px;
+}
+
+.text-field_right {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 20px;
     margin-bottom: 10px;
     border: none;
     color: #dacebc;
     font-family: Montserrat;
-
     font-weight: bold;
-
-    heigth: 248px;
-}
-
-.form1 {
-    float: left;
-}
-
-.form1 input{
-    min-width: 540px;
-    height: 65px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.form2 {
-    float: right;
-}
-.form2 input {
+    width: 90%;
     max-width: 540px;
-    padding: 20px;
-    height: 238px;
+
+    height: 220px;
+
+}
+
+.contact_first {
+    text-align: right;
+}
+.contact_second {
+    text-align: left;
+
 }
 .submit-btn {
-
     background-color: rgb(254, 209, 54);
     border-radius: 5px;
     font-size: 18px;
@@ -416,7 +411,8 @@ header {
 }
 
 /* contact us */
-/* contact us */
+
+
 /* FOOTER 영역 */
 
 /* FOOTER-LOGO */

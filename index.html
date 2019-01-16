@@ -276,20 +276,23 @@
     <p class="contact_title"><b>CONTACT US</b></p>
     <p class="contact_slogan"><i>Lorem ipsum dolor sit amet consectetur.</i></p>
     <div class="login-form">
-     
+      <div class="row">
+        <div class="col-6 contact_first">
+          <form>
+            <input type="name" name="neme" class="text-field_left" placeholder="Your Name*"><br>
+            <input type="email" name="email" class="text-field_left" placeholder="Your Email*"><br>
+            <input type="phone" name="phone" class="text-field_left" placeholder="Your Phone*">
+          </form>
+        </div>
+        <div class="col-6 contact_second">
+          <form>
+             <input type="message" name="message" class="text-field_right" placeholder="Your Message*">
+          </form>
+        </div>
+      </div>
 
         <form>
-            <div class="form1">
-            <input type="name" name="neme" class="text-field" placeholder="Your Name*"><br>
-            <input type="email" name="email" class="text-field" placeholder="Your Email*"><br>
-            <input type="phone" name="phone" class="text-field" placeholder="Your Phone*"><br>
-            </div>
-
-            <div class="form2">
-                <input type="message" name="message" class="text-field" placeholder="Your Message*"><br>
-            </div>
-
-            <input type="phone" value="SEND MESSAGE" class="submit-btn">
+           <input type="phone" value="SEND MESSAGE" class="submit-btn">
         </form>
     </div>
 </div>
