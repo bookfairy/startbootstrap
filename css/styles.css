@@ -39,6 +39,14 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+}
+
+p {
+    line-height: 1.75;
+}
+
 ::selection {
     background-color: #fed136;
 }
@@ -142,8 +150,8 @@ body {
 /*-------------------- INTRO 영역 --------------------*/
 
 header {
-    height: 700px;
-    line-height: 700px;
+    height: 750px;
+    line-height: 750px;
     text-align: center;
     background-image: url("../images/header-bg.jpg");
     background-repeat: no-repeat;
@@ -168,7 +176,7 @@ header > .header-inner > .header-subtitle {
 
 header > .header-inner > .header-title {
     line-height: 75px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     color: white;
     font-size: 75px;
     font-weight: 700;
@@ -178,11 +186,13 @@ header > .header-inner > .header-button {
     padding: 20px 40px;
     text-decoration: none;
     color: white;
-    background-color: #fec810;
-    border-color: #fec810;
+    background-color: #fed136;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.5;
+    border: 1px solid #fed136;
     border-radius: 4px;
+    display: inline-block;
 }
 
 
@@ -238,8 +248,7 @@ header > .header-inner > .header-button {
 }
 
 #portfolio .port-card > .card-caption > .card-title {
-    margin: 0 0 10px;
-    padding: 0;
+    margin: 0;
     font-weight: bold;
     font-size: 24px;
 }
@@ -309,7 +318,7 @@ header > .header-inner > .header-button {
     color: white;
     font-size: 18px;
     font-weight: bold;
-    line-height: normal;
+    line-height: 26px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -325,17 +334,12 @@ header > .header-inner > .header-button {
     margin-bottom: 50px;
 }
 
-#team .person > .person-image-area {
+#team .person > .person-image {
     width: 225px;
     height: 225px;
     border-radius: 100%;
     border: 7px solid white;
     display: inline-block;
-    overflow: hidden;
-}
-
-#team .person > .person-image-area > .person-image {
-    width: 100%;
 }
 
 #team .person > .person-name {
@@ -375,10 +379,10 @@ header > .header-inner > .header-button {
     text-align: center;
     position: relative;
     height: 800px;
+    background-color: #212529;
     background-image: url("../images/map-image.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 #contact .page-title {
@@ -420,7 +424,7 @@ header > .header-inner > .header-button {
     font-weight: bold;
     text-align: center;
     color: white;
-    border: none;
+    border: 1px solid #FED136;
     border-radius: 4px;
 }
 
@@ -428,46 +432,17 @@ header > .header-inner > .header-button {
 /*-------------------- FOOTER 영역 --------------------*/
 
 #footer {
-    position: relative;
-    display: block;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-#copyright {
-    font-size: 90%;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 14.5px;
     line-height: 40px;
-    text-transform: none;
-    font-family: Montserrat;
-    text-align: center;
 }
 
-.footer_image {
-    width: 50px;
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+#footer .copyright {
+    margin-bottom: 0;
 }
 
-#footer_sns {
-    text-align: center;
-}
-
-.footer_link {
-    color: #fed136;
-    text-decoration: none;
-    font-size: 90%;
-    line-height: 40px;
-    font-family: Montserrat;
-    margin-left: 5px;
-    margin-right: 5px;
-    text-shadow: none;
-    text-align: center;
-}
-
-.footer_link:hover {
-    color: #fed136;
+.footer-link {
+    color: #fed136 !important;
+    margin: 0 4px;
 }
