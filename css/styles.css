@@ -57,7 +57,8 @@
 header {
     text-align: center;
     position: relative;
-    height: 500px;
+    height: 700px;
+    line-height: 700px;
     background-image: url("../images/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -183,6 +184,68 @@ header {
     padding: 0;
 }
 
+/* about 영역*/
+
+.remove-padding {
+    padding: 0;
+}
+
+.vertical-line {
+    height: 200px;
+    border-right: 2px solid #e9ecef;
+}
+
+#about {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.graph-title {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.graph-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    border: 7px solid #e9ecef;
+    display: inline-block;
+    background-color: #fed136;
+    line-height: 155px;
+}
+
+.inner-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.graph-desctiption {
+    font-family: 'Droid Serif';
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.75;
+}
+
+.graph-left {
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 25px;
+}
+
+.graph-right {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 100px;
+}
+
 /* our amazing team */
 
 
@@ -193,10 +256,12 @@ header {
     padding-top: 150px;
     padding-bottom: 150px;
 }
+
 .team_title1 {
     font-weight: 700;
     font-family: 'Montserrat';
 }
+
 /* 이경원 */
 
 .team_title1 {
@@ -205,6 +270,7 @@ header {
     font-size: 40px;
     margin-bottom: 15px;
 }
+
 .team_title2 {
     font-family: 'Droid Serif';
     font-size: 16px;
@@ -223,6 +289,7 @@ header {
     font-family: Montserrat;
     margin-bottom: 0px;
 }
+
 .job {
     font-family: Montserrat;
     font-size: 16px;
@@ -230,6 +297,7 @@ header {
     font-family: 'Roboto Slab';
     color: #6c757d;
 }
+
 .person_img {
 
 }
@@ -258,15 +326,18 @@ header {
     float: left;
     width: 33%;
 }
+
 .person2 {
     float: left;
     width: 33%;
 }
+
 .person3 {
     float: left;
     width: 33%;
     padding-bottom: 50px;
 }
+
 .sentence {
     display: block;
     margin-left: auto;
@@ -310,42 +381,42 @@ header {
 }
 
 .login-form {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
 
 .text-field {
-  font-size: 14px;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
-  color: #dacebc;
-  font-family: Montserrat;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: #dacebc;
+    font-family: Montserrat;
 
-  font-weight: bold;
-  width: 540px;
-  heigth: 248px;
+    font-weight: bold;
+    width: 540px;
+    heigth: 248px;
 
 
 }
 
 .submit-btn {
 
-  background-color: rgb(254, 209, 54);
-  border-radius: 5px;
-  font-size: 18px;
-  padding: 20px 40px;
-  text-align: center;
-  font-family: Montserrat;
+    background-color: rgb(254, 209, 54);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-align: center;
+    font-family: Montserrat;
 
-  width: 230px;
-  color: white;
-  border: none;
-  font-weight: bold;
+    width: 230px;
+    color: white;
+    border: none;
+    font-weight: bold;
 }
 
 .links {
@@ -353,8 +424,68 @@ header {
 }
 
 .links a {
-  font-size: 12px;
-  color: #9b9b9b
+    font-size: 12px;
+    color: #9b9b9b
 }
 
 /* contact us */
+/* contact us */
+/* FOOTER 영역 */
+
+/* FOOTER-LOGO */
+
+.footer_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#four_logo {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+#footer {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.footer_image {
+    width: 50px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer_sns {
+    text-align: center;
+}
+
+.footer_link {
+    color: #fed136;
+    text-decoration: none;
+    font-size: 90%;
+    line-height: 40px;
+    font-family: Montserrat;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-shadow: none;
+    text-align: center;
+}
+
+.footer_link:hover {
+    color: #fed136;
+}
