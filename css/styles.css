@@ -105,8 +105,7 @@ header {
 /* SERVICE 영역 */
 
 #service {
-    padding-top: 150px;
-    padding-top: 150px;
+    padding: 150px 0;
 }
 
 #title_services {
@@ -299,43 +298,14 @@ header {
 }
 
 .person_img {
-
-}
-
-.people {
-
-}
-
-#person_img1 {
     width: 225px;
     border-radius: 110px;
 }
 
-#person_img2 {
-    width: 225px;
-    border-radius: 110px;
-
-}
-
-#person_img3 {
-    width: 225px;
-    border-radius: 110px;
-}
-
-.person1 {
+.person {
     float: left;
     width: 33%;
-}
-
-.person2 {
-    float: left;
-    width: 33%;
-}
-
-.person3 {
-    float: left;
-    width: 33%;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .sentence {
