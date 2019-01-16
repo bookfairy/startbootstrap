@@ -194,6 +194,14 @@ header {
     padding-bottom: 150px;
 }
 
+
+.team_title1 {
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+/* 이경원 */
+
 #team_title1 {
     font-weight: 700;
     font-family: Montserrat;
@@ -201,7 +209,7 @@ header {
     margin-bottom: 15px;
 }
 
-#team_title2 {
+.team_title2 {
     font-family: 'Droid Serif';
     font-size: 16px;
     margin-bottom: 75px;
@@ -226,6 +234,10 @@ header {
     font-weight: 400;
     font-family: 'Roboto Slab';
     color: #6c757d;
+
+}
+
+.people {
 
 }
 
@@ -270,5 +282,25 @@ header {
     max-width: 690px;
     font-family: 'Roboto Slab';
     color: rgb(108, 117, 125);
-    padding-bottom: 150px;
 }
+
+/* our amazing team */
+
+/* contact us */
+.contact_us {
+    text-align: center;
+    position: relative;
+    height: 500px;
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+
+    padding: 150px 0px;
+}
+
+.contact_title {
+    color: white;
+}
+/* contact us */
