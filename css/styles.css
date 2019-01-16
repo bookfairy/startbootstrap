@@ -1,3 +1,7 @@
+/*-------------------- 공통 및 기본 영역 --------------------*/
+
+/* 폰트 */
+
 @font-face {
     font-family: 'Droid Serif';
     font-weight: 400;
@@ -23,16 +27,22 @@
 }
 
 
-/* main theme color는 #fed136 입니다 */
+/* 공통 설정 */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 ::selection {
     background-color: #fed136;
 }
 
+/* section에 주어지는 기본 padding */
+.area {
+    padding: 150px 0;
+}
 
-/* 공통 영역 */
-
-.gray-page {
+.area.gray {
     background-color: #f8f9fa;
 }
 
@@ -40,171 +50,138 @@
     margin-bottom: 15px;
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Montserrat';
+    text-align: center;
 }
 
 .page-desctiption {
     margin-bottom: 75px;
     font-size: 16px;
     color: #6c757d;
-    font-family: 'Droid Serif';
+    font-family: 'Droid Serif', serif;
     font-style: italic;
+    text-align: center;
 }
 
 
-/* INTRO 영역 */
+/*-------------------- NNAVBAR 영역 --------------------*/
+
+
+/*-------------------- INTRO 영역 --------------------*/
 
 header {
-    text-align: center;
-    position: relative;
     height: 700px;
     line-height: 700px;
+    text-align: center;
     background-image: url("../images/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: scroll;
 }
 
-#intro_1 {
-    color: white;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-    font-family: 'Droid Serif';
-}
-
-#intro_2 {
-    color: white;
-    font-size: 75px;
-    font-weight: 700;
-    line-height: 75px;
-    margin-bottom: 50px;
-    font-family: Montserrat;
-}
-
-#link_1 {
-    text-decoration: none;
-    color: white;
-    background-color: #fec810;
-    border-color: #fec810;
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 20px 40px;
-    border-radius: 4px;
-}
-
-.box {
+header > .header-inner {
     display: inline-block;
     line-height: 100%;
     vertical-align: middle;
 }
 
-/* SERVICE 영역 */
-
-#service {
-    padding: 150px 0;
-}
-
-#title_services {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: Montserrat;
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
-#subheading_services {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
+header > .header-inner > .header-subtitle {
+    margin-bottom: 25px;
+    line-height: 40px;
+    color: white;
     font-style: italic;
-    margin-bottom: 75px;
-    color: #6c757d;
-    font-family: 'Droid Serif';
+    font-size: 40px;
+    font-family: 'Droid Serif', serif;
 }
 
-.service_icon {
+header > .header-inner > .header-title {
+    line-height: 75px;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+header > .header-inner > .header-button {
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    background-color: #fec810;
+    border-color: #fec810;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+
+/*-------------------- SERVICE 영역 --------------------*/
+
+#service .service-icon-area {
     width: 128px;
     height: 128px;
     margin: 0 auto;
+    line-height: 128px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
     border-radius: 50%;
     background-color: #fed136;
 }
 
-.fas {
-    font-weight: 900;
-    font-family: "Font Awesome 5 Free";
-    font-size: 50px;
-    color: #fff;
-    left: 0;
-    position: absolute;
-    text-align: center;
-    text-shadow: none;
-    width: 160px;
-    height: 128px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.service_subtitle {
-    text-align: center;
+#service .service-title {
     margin: 15px 0;
+    text-align: center;
     font-weight: 700;
-    font-family: Montserrat;
     font-size: 1.5rem;
 }
 
-.service_paragraph {
-    color: #6c757d;
-    line-height: 1.75;
+#service .service-description {
     margin-top: 0;
     margin-bottom: 1rem;
+    color: #6c757d;
+    line-height: 1.75;
     text-align: center;
+    font-family: 'Droid Serif', serif;
 }
 
-/* PORTFOLIO 영역 */
+
+/*-------------------- PORTFOLIO 영역 --------------------*/
 
 #portfolio {
     text-align: center;
     padding: 150px 0;
 }
 
-.port-card {
+#portfolio .port-card {
     margin-bottom: 30px;
 }
 
-.card-caption {
+#portfolio .port-card > .card-image-area > .card-image {
+    width: 100%;
+}
+
+#portfolio .port-card > .card-caption {
     padding: 25px;
     background-color: white;
 }
 
-.card-title {
+#portfolio .port-card > .card-caption > .card-title {
+    margin: 0 0 10px;
+    padding: 0;
     font-weight: bold;
     font-size: 24px;
-    font-family: Montserrat;
-    margin: 0;
-    padding: 0;
 }
 
-.card-content {
+#portfolio .port-card > .card-caption > .card-description {
+    margin: 0;
+    padding: 0;
     font-size: 16px;
     color: #6c757d;
-    font-family: 'Droid Serif';
+    font-family: 'Droid Serif', serif;
     font-style: italic;
-    margin: 0;
-    padding: 0;
 }
 
-/* about 영역*/
 
-.remove-padding {
-    padding: 0;
-}
+/*-------------------- ABOUT 영역 --------------------*/
 
 .vertical-line {
     height: 200px;
@@ -216,14 +193,36 @@ header {
     padding: 150px 0;
 }
 
-.graph-title {
+#about .graph-group > .graph-left {
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 25px;
+}
+
+#about .graph-group > .graph-center {
+    padding: 0;
+}
+
+#about .graph-group > .graph-right {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 100px;
+}
+
+#about .graph-group > [class*="graph-"] > .graph-title {
     font-weight: bold;
-    font-family: 'Montserrat';
     font-size: 24px;
     line-height: 1.5;
 }
 
-.graph-image {
+#about .graph-group > [class*="graph-"] > .graph-desctiption {
+    font-family: 'Droid Serif', serif;
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.75;
+}
+
+#about .graph-group > .graph-center > .graph-image {
     width: 170px;
     height: 170px;
     border-radius: 100%;
@@ -233,39 +232,17 @@ header {
     line-height: 155px;
 }
 
-.inner-text {
+#about .graph-group > .graph-center > .graph-image > .inner-text {
     color: white;
     font-size: 18px;
     font-weight: bold;
-    font-family: Montserrat;
     line-height: normal;
     display: inline-block;
     vertical-align: middle;
 }
 
-.graph-desctiption {
-    font-family: 'Droid Serif';
-    font-size: 16px;
-    color: #6c757d;
-    line-height: 1.75;
-}
 
-.graph-left {
-    text-align: right;
-    padding-left: 100px;
-    padding-right: 25px;
-}
-
-.graph-right {
-    text-align: left;
-    padding-left: 25px;
-    padding-right: 100px;
-}
-
-/* our amazing team */
-
-
-/* 이경원 */
+/*-------------------- OUT AMAZING TEAM 영역 --------------------*/
 
 .team {
     text-align: center;
@@ -291,10 +268,6 @@ header {
     font-family: 'Droid Serif';
     font-size: 16px;
     margin-bottom: 75px;
-}
-
-#helper {
-
 }
 
 .name {
@@ -334,9 +307,9 @@ header {
     color: rgb(108, 117, 125);
 }
 
-/* our amazing team */
 
-/* contact us */
+/*-------------------- CONTACT US 영역 --------------------*/
+
 .contact_us {
     text-align: center;
     position: relative;
@@ -415,11 +388,8 @@ header {
     color: #9b9b9b
 }
 
-/* contact us */
-/* contact us */
-/* FOOTER 영역 */
 
-/* FOOTER-LOGO */
+/*-------------------- FOOTER 영역 --------------------*/
 
 .footer_logo {
     display: block;
