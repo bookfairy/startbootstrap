@@ -82,23 +82,25 @@ header {
 
 #portfolio {
     text-align: center;
+    padding: 150px 0;
 }
+
 #team_title1 {
-font-weight: 700;
+    font-weight: 700;
     font-family: Montserrat;
     font-size: 40px;
     margin-bottom: 15px;
-  }
+}
 
 #team_title2 {
-    font-family: 'Droid Serif'
+    font-family: 'Droid Serif';
     font-size: 16px;
     margin-bottom: 75px;
-  }
+}
 
 #helper {
 
-  }
+}
 
 .name {
     font-family: Montserrat;
@@ -108,20 +110,21 @@ font-weight: 700;
 }
 
 .job {
-    Montserrat;
+    font-family: Montserrat;
     font-size: 16px;
 }
-
 
 
 #person_img1 {
     width: 225px;
     border-radius: 110px;
 }
+
 #person_img2 {
     width: 225px;
     border-radius: 110px;
 }
+
 #person_img3 {
     width: 225px;
     border-radius: 110px;
@@ -145,16 +148,11 @@ font-weight: 700;
 }
 
 .sentence {
-<<<<<<< HEAD
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 690px;
     font-family: 'Roboto Slab';
-    color : rgb(108, 117, 125);
-}
-
-=======
+    color: rgb(108, 117, 125);
     width: 100%;
 }
->>>>>>> e8c8d26e5c69124168215835cdbfad396bf32bca
