@@ -299,25 +299,6 @@ header {
 }
 
 .person_img {
-
-}
-
-.people {
-
-}
-
-#person_img1 {
-    width: 225px;
-    border-radius: 110px;
-}
-
-#person_img2 {
-    width: 225px;
-    border-radius: 110px;
-
-}
-
-#person_img3 {
     width: 225px;
     border-radius: 110px;
 }
@@ -354,7 +335,7 @@ header {
     text-align: center;
     position: relative;
     height: 800px;
-    background-image: url("../images/header-bg.jpg");
+    background-image: url("../images/map-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
