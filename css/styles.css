@@ -52,6 +52,7 @@ body {
     background-color: #f8f9fa;
 }
 
+/* 각 section의 제목, 부제목 */
 .page-title {
     margin-bottom: 15px;
     font-size: 40px;
@@ -68,11 +69,28 @@ body {
     text-align: center;
 }
 
+/* 메뉴 아이템 (hover 시 노란색으로 변환) */
+.menu-item {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 4px;
+    border-radius: 50%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    transition: background-color .3s;
+}
 
-/*-------------------- NNAVBAR 영역 --------------------*/
+.menu-item:hover {
+    color: white;
+    background-color: #fed136;
+}
 
 
-/*-------------------- INTRO 영역 --------------------*/
+/*-------------------- NAVBAR 영역 --------------------*/
 
 .navbar {
     padding: 0 20px;
@@ -119,6 +137,9 @@ body {
 #menu li a:hover {
     color: #fec810;
 }
+
+
+/*-------------------- INTRO 영역 --------------------*/
 
 header {
     height: 700px;
@@ -330,33 +351,27 @@ header > .header-inner > .header-button {
     color: #6c757d;
 }
 
-#team .person > .menu > .menu-item {
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    margin: 0 4px;
-    background-color: #212529;
-    border-radius: 50%;
-    color: white;
-    text-align: center;
-    line-height: 50px;
-    font-size: 20px;
-    transition: background-color .3s;
-}
-
-#team .person > .menu > .menu-item:hover {
-    background-color: #fed136;
-}
-
 #team .sentense {
     font-family: 'Droid Serif', serif;
     color: #6c757d;
 }
 
 
+/*-------------------- SPONSOR 영역 --------------------*/
+
+#sponsor {
+    padding: 50px 0;
+}
+
+#sponsor .footer-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+
 /*-------------------- CONTACT US 영역 --------------------*/
 
-.contact_us {
+#contact {
     text-align: center;
     position: relative;
     height: 800px;
@@ -364,101 +379,53 @@ header > .header-inner > .header-button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: scroll;
-
-    padding: 150px 0px;
 }
 
-.contact_title {
+#contact .page-title {
     color: white;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 15px;
-
 }
 
-.contact_slogan {;
-    color: rgb(108, 117, 125);
-    font-family: 'Droid Serif';
+#contact .contact-input {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    color: #495057;
     font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 75px;
+    font-weight: normal;
+    font-family: 'Dorif Serif', serif;
 }
 
+#contact .contact-input.big-input {
+    height: 248px;
+}
 
-.text-field_left {
-    font-size: 14px;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: none;
-    color: #dacebc;
-    font-family: Montserrat;
+#contact .contact-input::placeholder {
+    color: #cdcdcd;
     font-weight: bold;
-    width: 90%;
-    max-width: 540px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.text-field_right {
-    font-size: 14px;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 10px;
-    border: none;
-    color: #dacebc;
-    font-family: Montserrat;
-    font-weight: bold;
-    width: 90%;
-    max-width: 540px;
-
-    height: 220px;
-
+#contact .contact-input:focus {
+    outline: none;
+    border: 1px solid #FED136;
 }
 
-
-.contact_first {
-    text-align: right;
-}
-.contact_second {
-    text-align: left;
-}
-
-.submit-btn {
-    background-color: rgb(254, 209, 54);
-    border-radius: 5px;
-    font-size: 18px;
+#contact input[type=submit] {
     padding: 20px 40px;
+    background-color: #FED136;
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
-
-    width: 230px;
     color: white;
     border: none;
-    font-weight: bold;
-}
-
-.links {
-    margin-top: 30px;
-}
-
-.links a {
-    font-size: 12px;
-    color: #9b9b9b
+    border-radius: 4px;
 }
 
 
 /*-------------------- FOOTER 영역 --------------------*/
-
-.footer_logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#four_logo {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-}
 
 #footer {
     position: relative;
