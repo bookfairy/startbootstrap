@@ -53,9 +53,31 @@ section {
 }
 
 
+/* INTRO 영역 */
+
+header {
+    text-align: center;
+    position: relative;
+    height: 500px;
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+
+#intro_1 {
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Dorif Serif';
+}
+
+
 /* PORTFOLIO 영역 */
 
 #portfolio {
     text-align: center;
 }
-
