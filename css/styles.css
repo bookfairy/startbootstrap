@@ -284,6 +284,19 @@ header {
 
 /* FOOTER 영역 */]
 
+/* FOOTER-LOGO */
+
+.footer_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#four_logo {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
 #footer {
     position: relative;
     display: block;
