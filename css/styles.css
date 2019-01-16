@@ -1,4 +1,6 @@
-@charset "UTF-8";
+.team {
+    text-align: center;
+}
 
 
 @font-face {
@@ -28,10 +30,6 @@
 
 
 /* 공통 영역 */
-
-section {
-
-}
 
 .gray-page {
     background-color: #f8f9fa;
@@ -127,4 +125,113 @@ header {
 
 #portfolio {
     text-align: center;
+    padding: 150px 0;
+}
+
+.port-card {
+    margin-bottom: 30px;
+}
+
+.card-caption {
+    padding: 25px;
+    background-color: white;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.card-content {
+    font-size: 16px;
+    color: #6c757d;
+    font-family: 'Droid Serif';
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+/* 이경원 */
+
+#team_title1 {
+    font-weight: 700;
+    font-family: Montserrat;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#team_title2 {
+    font-family: 'Droid Serif';
+    font-size: 16px;
+    margin-bottom: 75px;
+}
+
+#helper {
+
+}
+
+.name {
+    font-family: Montserrat;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.job {
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+
+#person_img1 {
+    width: 225px;
+    border-radius: 110px;
+}
+
+#person_img2 {
+    width: 225px;
+    border-radius: 110px;
+}
+
+#person_img3 {
+    width: 225px;
+    border-radius: 110px;
+}
+
+
+.person1 {
+    float: left;
+    width: 33%;
+}
+
+
+.person2 {
+    float: left;
+    width: 33%;
+}
+
+.person3 {
+    float: left;
+    width: 33%;
+}
+
+.sentence {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 690px;
+    font-family: 'Roboto Slab';
+    color: rgb(108, 117, 125);
+    width: 100%;
 }
