@@ -108,6 +108,11 @@ header {
 
 /* SERVICE 영역 */
 
+#service {
+    padding-top: 150px;
+    padding-top: 150px;
+}
+
 #title_services {
     text-align: center;
     font-size: 40px;
@@ -125,6 +130,29 @@ header {
     margin-bottom: 75px;
     color: #6c757d;
     font-family: 'Droid Serif';
+}
+
+.service_image {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service_subtitle {
+    text-align: center;
+    margin: 15px 0;
+    font-weight: 700;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+
+.service_paragraph {
+    color: #6c757d;
+    line-height: 1.75;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 /* PORTFOLIO 영역 */
