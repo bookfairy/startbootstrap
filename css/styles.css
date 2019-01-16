@@ -101,51 +101,47 @@ p {
 /*-------------------- NAVBAR 영역 --------------------*/
 
 .navbar {
+    height: 54px;
     padding: 0 20px;
-    overflow: hidden;
-    background-color: black;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.50);
-    height: 60px;
     line-height: 60px;
+    background-color: #212529;
 }
 
-#web_name {
-    color: #fec810;
-    font-family: 'Kaushan Script';
+.navbar > .container {
+    height: 54px;
+}
+
+.navbar-brand {
+    color: #fed136 !important;
+    font-family: 'Kaushan Script', serif;
     text-decoration: none;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-right: 1rem;
     font-size: 1.25rem;
     display: inline-block;
+    transition: color .3s;
 }
 
-#menu {
-    list-style: none;
-    float: right;
-    margin: 0;
-    padding: 0;
+.navbar-brand:hover {
+    color: #fec810 !important;
 }
 
-#menu li {
-    float: left;
-    padding-left: 14px;
-    padding-right: 14px;
+.nav-link {
+    padding: 16px !important;
+    color: white !important;
+    font-size: 15px;
+    display: inline;
 }
 
-#menu li a {
-    text-decoration: none;
-    color: white;
-    font-size: 90%;
-    font-weight: 400;
-    font-family: Montserrat;
-    text-transform: uppercase;
+.nav-link:hover {
+    color: #fed136 !important;
 }
 
-#menu li a:hover {
-    color: #fec810;
-}
+.navbar-toggler {
+    background-color: #fed136;
 
+}
 
 /*-------------------- INTRO 영역 --------------------*/
 
@@ -368,8 +364,10 @@ header {
 }
 
 #sponsor .footer-logo {
-    display: block;
+    width: 100%;
+    max-width: 200px;
     margin: 0 auto;
+    display: block;
 }
 
 
@@ -378,7 +376,6 @@ header {
 #contact {
     text-align: center;
     position: relative;
-    height: 800px;
     background-color: #212529;
     background-image: url("../images/map-image.png");
     background-repeat: no-repeat;
