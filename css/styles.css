@@ -37,10 +37,6 @@
 
 /* 공통 영역 */
 
-section {
-
-}
-
 .gray-page {
     background-color: #f8f9fa;
 }
@@ -80,16 +76,89 @@ header {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Dorif Serif';
+    font-family: 'Droid Serif';
 }
 
+#intro_2 {
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: Montserrat;
+}
+
+#link_1 {
+    text-decoration: none;
+    color: white;
+    background-color: #fec810;
+    border-color: #fec810;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 4px;
+}
+
+.box {
+    display: inline-block;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+/* SERVICE 영역 */
+
+#title_services {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Montserrat;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#subheading_services {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    color: #6c757d;
+    font-family: 'Droid Serif';
+}
 
 /* PORTFOLIO 영역 */
 
 #portfolio {
     text-align: center;
+    padding: 150px 0;
 }
 
+.port-card {
+    margin-bottom: 30px;
+}
+
+.card-caption {
+    padding: 25px;
+    background-color: white;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.card-content {
+    font-size: 16px;
+    color: #6c757d;
+    font-family: 'Droid Serif';
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
 
 /* our amazing team */
 
@@ -102,33 +171,38 @@ header {
 #team_title1 {
     font-weight: 700;
     font-family: 'Montserrat';
+}
+
+/* 이경원 */
+
+#team_title1 {
+    font-weight: 700;
+    font-family: Montserrat;
     font-size: 40px;
     margin-bottom: 15px;
-  }
+}
 
 #team_title2 {
     font-family: 'Droid Serif';
-
     font-size: 16px;
     margin-bottom: 75px;
-  }
+}
 
 #helper {
 
-  }
+}
 
 .name {
     margin-top: 25px;
     margin-bottom: 0px;
     font-size: 24px;
     font-weight: 700;
-    font-family: Montserrat
-
-
+    font-family: Montserrat;
     margin-bottom: 0px;
 }
 
 .job {
+    font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Roboto Slab';
@@ -136,19 +210,17 @@ header {
 
 }
 
-.people {
-
-}
-
 #person_img1 {
     width: 225px;
     border-radius: 110px;
 }
+
 #person_img2 {
     width: 225px;
     border-radius: 110px;
 
 }
+
 #person_img3 {
     width: 225px;
     border-radius: 110px;
@@ -160,7 +232,6 @@ header {
     width: 33%;
 
 }
-
 
 .person2 {
     float: left;
@@ -174,18 +245,11 @@ header {
 }
 
 .sentence {
-<<<<<<< HEAD
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 690px;
     font-family: 'Roboto Slab';
-    color : rgb(108, 117, 125);
-
+    color: rgb(108, 117, 125);
     padding-bottom: 150px;
 }
-
-=======
-    width: 100%;
-}
->>>>>>> e8c8d26e5c69124168215835cdbfad396bf32bca

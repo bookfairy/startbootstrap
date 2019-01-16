@@ -11,80 +11,158 @@
 <!-- 영역 내 반복되는 상자는 article 태그로 정리 바랍니다. -->
 <body>
 <!-- header, INTRO 영역을 header 태그 안에 작성 바랍니다. -->
-
-
 <header>
-    <h1 id="intro_1">Welcome To Our Studio!</h1>
-    <h2 id="intro_2">IT'S NICE TO MEET YOU</h2>
-    <a href="#">Tell Me More</a>
+    <div class="box">
+        <h1 id="intro_1">Welcome To Our Studio!</h1>
+        <h2 id="intro_2">IT'S NICE TO MEET YOU</h2>
+        <a id="link_1" href="#">TELL ME MORE</a>
+    </div>
+
 </header>
 
-
-
 <!-- 나머지 내용은 모두 main 태그 안에 작성 바랍니다. -->
-
+<!-- Service -->
+<section id="service">
+    <h1 id="title_services">SERVICES</h1>
+    <p id="subheading_services">Lorem ipsum dolor sit amet consectetur.</p>
+    <div class="trolley">
+        <img src="images/trolley.png" height="608" width="590"/>
+        <h1>E-Commerce</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
+            ex magni, dicta impedit.</p>
+    </div>
+    <div class="laptop">
+        <img src="images/laptop.png" height="592" width="591"/>
+        <h1>Responsive Design</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
+            ex magni, dicta impedit.</p>
+    </div>
+    <div class="locker">
+        <img src="images/locker.png" height="619" width="592"/>
+        <h1>Web Security</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
+            ex magni, dicta impedit.</p>
+    </div>
+</section>
 
 <!-- 경원 : title -->
 <div class="team">
-   <h1 id="team_title1">OUR AMAZING TEAM</h1>
+    <h1 id="team_title1">OUR AMAZING TEAM</h1>
     <p id="team_title2"><i>Lorem ipsum dolor sit amet consectetur.</i></p>
+    <div class="people">
+        <div class="person1">
+            <a href="https://facebook.com" target="_blank">
+                <img id="person_img1" src="images/1.jpg">
+            </a>
 
-     <div class="people">
-       <div class="person1">
-         <a href="https://facebook.com" target="_blank">
-             <img id="person_img1" src="images/1.jpg">
-         </a>
+            <p class="name"> Kay Garland</p>
+            <p class="job">Lead Designer</p>
 
-         <p class="name"> Kay Garland</p>
-         <p class="job">Lead Designer</p>
+            <img id="team_icon" src="images/team_icon.jpg" width=180px>
 
-         <img id="team_icon" src="images/team_icon.jpg" width=180px>
+        </div>
 
-       </div>
+        <div class="person2">
+            <a href="https://instagram.com" target="_blank">
+                <img id="person_img2" src="images/2.jpg">
+            </a>
 
-       <div class="person2">
-         <a href="https://instagram.com" target="_blank">
-             <img id="person_img2" src="images/2.jpg">
-         </a>
+            <p class="name">Larry Parker</p>
+            <p class="job">Lead Marketer</p>
 
-         <p class="name">Larry Parker</p>
-         <p class="job">Lead Marketer</p>
+            <img id="team_icon" src="images/team_icon.jpg" width=180px>
 
-         <img id="team_icon" src="images/team_icon.jpg" width=180px>
+        </div>
 
-       </div>
+        <div class="person3">
+            <a href="https://github.com" target="_blank">
+                <img id="person_img3" src="images/3.jpg">
+            </a>
 
-       <div class="person3">
-         <a href="https://github.com" target="_blank">
-             <img id="person_img3" src="images/3.jpg">
-         </a>
+            <p class="name">Diana Pertersen</p>
+            <p class="job">Lead Developer</p>
 
-         <p class="name">Diana Pertersen</p>
-         <p class="job">Lead Developer</p>
+            <img id="team_icon" src="images/team_icon.jpg" width=180px>
 
-         <img id="team_icon" src="images/team_icon.jpg" width=180px>
-
-       </div>
-     </div>
+        </div>
+    </div>
 
     <div class="sentence">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad
+            perspiciatis, totam corporis ea, alias ut unde.</p>
     </div>
-<!-- 경원 : title -->
-
-
-<!-- 경원 : contact us -->
-
-<!-- 경원 : contact us -->       
-
-
-
+</div>
 <main>
-
     <!-- PORTFOLIO -->
-    <section id="portfolio" class="container">
-        <h2 class="page-title">PORTFOLIO</h2>
-        <h3 class="page-desctiption">Lorem ipsum dolor sit amet consectetur.</h3>
+    <section id="portfolio" class="gray-page">
+        <div class="container">
+            <h2 class="page-title">PORTFOLIO</h2>
+            <h3 class="page-desctiption">Lorem ipsum dolor sit amet consectetur.</h3>
+            <div class="row">
+
+                <article class="port-card col-12 col-sm-6 col-md-4">
+                    <a class="portfolio-link" data-toggle="modal" href="#">
+                        <img class="img-fluid" src="images/01-thumbnail.jpg">
+                    </a>
+                    <div class="card-caption">
+                        <h4 class="card-title">Threads</h4>
+                        <p class="card-content">Illustration</p>
+                    </div>
+                </article>
+
+                <article class="port-card col-12 col-sm-6 col-md-4">
+                    <a class="portfolio-link" data-toggle="modal" href="#">
+                        <img class="img-fluid" src="images/02-thumbnail.jpg">
+                    </a>
+                    <div class="card-caption">
+                        <h4 class="card-title">Explore</h4>
+                        <p class="card-content">Graphic Design</p>
+                    </div>
+                </article>
+
+                <article class="port-card col-12 col-sm-6 col-md-4">
+                    <a class="portfolio-link" data-toggle="modal" href="#">
+                        <img class="img-fluid" src="images/03-thumbnail.jpg">
+                    </a>
+                    <div class="card-caption">
+                        <h4 class="card-title">Finish</h4>
+                        <p class="card-content">Identity</p>
+                    </div>
+                </article>
+
+                <article class="port-card col-12 col-sm-6 col-md-4">
+                    <a class="portfolio-link" data-toggle="modal" href="#">
+                        <img class="img-fluid" src="images/04-thumbnail.jpg">
+                    </a>
+                    <div class="card-caption">
+                        <h4 class="card-title">Lines</h4>
+                        <p class="card-content">Branding</p>
+                    </div>
+                </article>
+
+                <article class="port-card col-12 col-sm-6 col-md-4">
+                    <a class="portfolio-link" data-toggle="modal" href="#">
+                        <img class="img-fluid" src="images/05-thumbnail.jpg">
+                    </a>
+                    <div class="card-caption">
+                        <h4 class="card-title">Southwest</h4>
+                        <p class="card-content">Website Design</p>
+                    </div>
+                </article>
+
+                <article class="port-card col-12 col-sm-6 col-md-4">
+                    <a class="portfolio-link" data-toggle="modal" href="#">
+                        <img class="img-fluid" src="images/06-thumbnail.jpg">
+                    </a>
+                    <div class="card-caption">
+                        <h4 class="card-title">Window</h4>
+                        <p class="card-content">Photography</p>
+                    </div>
+                </article>
+
+
+            </div>
+        </div>
     </section>
 
 </main>
