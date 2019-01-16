@@ -31,10 +31,6 @@
 
 /* 공통 영역 */
 
-section {
-
-}
-
 .gray-page {
     background-color: #f8f9fa;
 }
@@ -84,6 +80,42 @@ header {
     text-align: center;
     padding: 150px 0;
 }
+
+.port-card {
+    margin-bottom: 30px;
+}
+
+.card-caption {
+    padding: 25px;
+    background-color: white;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.card-content {
+    font-size: 16px;
+    color: #6c757d;
+    font-family: 'Droid Serif';
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+/* 이경원 */
 
 #team_title1 {
     font-weight: 700;
