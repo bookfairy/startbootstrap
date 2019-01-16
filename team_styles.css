@@ -1,0 +1,44 @@
+.team {
+    text-align: center;
+}
+
+#people {
+
+
+}
+
+
+#person_img1 {
+    width: 225px;
+    border-radius: 110px;
+}
+#person_img2 {
+    width: 225px;
+    border-radius: 110px;
+}
+#person_img3 {
+    width: 225px;
+    border-radius: 110px;
+}
+
+
+.person1 {
+    float: left;
+    width: 32%;
+}
+
+
+.person2 {
+    float: left;
+    width: 32%;
+
+}
+
+.person3 {
+    float: left;
+    width: 32%;
+}
+
+.sentence {
+    width: 100%;
+}
