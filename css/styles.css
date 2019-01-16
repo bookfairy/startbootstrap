@@ -186,7 +186,28 @@ header {
 /* about 영역*/
 
 #about {
+    text-align: center;
     padding: 150px 0;
+}
+
+.graph-title {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+.graph-desctiption {
+    font-family: 'Droid Serif';
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.graph-left {
+    text-align: right;
+}
+
+.graph-right {
+    text-align: left;
 }
 
 /* our amazing team */
